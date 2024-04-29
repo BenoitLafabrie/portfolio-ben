@@ -33,14 +33,14 @@ export const Status = () => {
             url="mailto:benoit_lafabrie_pro@fastmail.com"
             name="Pro Email"
             image="https://i.imgur.com/ZiUHp3A.jpg"
-            mediumImage="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNkNGQ0ZDQiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1tYWlsIj48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTYiIHg9IjIiIHk9IjQiIHJ4PSIyIi8+PHBhdGggZD0ibTIyIDctOC45NyA1LjdhMS45NCAxLjk0IDAgMCAxLTIuMDYgMEwyIDciLz48L3N2Zz4="
+            mediumImage="https://purepng.com/public/uploads/medium/purepng.com-mail-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596075c48i3.png"
             description="Please fill that inbox ;)"
           />
           <ContactCard
             url="https://www.linkedin.com/in/benoit-lafabrie/"
             name="Benoît Lafabrie"
             image="https://i.imgur.com/ZiUHp3A.jpg"
-            mediumImage="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.8IxSTRR_RjmMtUAT7nAT7gHaHa%26pid%3DApi&f=1&ipt=da87fb84ee094fd789611272d2170e0c82ab560d78b1d68e13dc082f94cd07f5&ipo=images"
+            mediumImage="https://logospng.org/download/linkedin/logo-linkedin-icon-2048.png"
             description="Let's networking ;)"
           />
         </Card>
