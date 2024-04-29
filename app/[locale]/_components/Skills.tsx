@@ -1,4 +1,5 @@
 import { Badge } from "@/components/ui/badge";
+import { useTranslations } from "next-intl";
 import { Code } from "./Code";
 import { Section } from "./Section";
 import { ReactIcon } from "./icons/ReactIcon";
@@ -6,15 +7,16 @@ import { TailwindIcon } from "./icons/TailwindIcon";
 import { TypeScriptIcon } from "./icons/TypeScriptIcon";
 
 export const Skills = () => {
+  const t = useTranslations("Home.Skills");
   return (
     <Section className="flex flex-col items-start gap-4">
       <Badge className="text-3xl" variant="outline">
-        Skills
+        {t("Title")}
       </Badge>
       <h2 className="pb-2 text-2xl font-semibold tracking-tight first:mt-0">
-        I love working on...
+        {t("SkillsCatchphrase")}
       </h2>
-      <div className="flex max-md:flex-col gap-4">
+      <div className="flex max-md:flex-col gap-4 text-balance">
         <div>
           <div className="flex flex-col gap-2 flex-1">
             <ReactIcon
@@ -23,29 +25,39 @@ export const Skills = () => {
               style={{ animationDuration: "10s" }}
             />
           </div>
-          <h3 className="text-2xl font-semibold tracking-tight">React</h3>
+          <h3 className="text-2xl font-semibold tracking-tight">
+            {t("Skill1Title")}
+          </h3>
           <p className="text-sm text-muted-foreground">
-            My main framework is <Code>React</Code>. I also use{" "}
-            <Code>Next.js</Code> as a backend and frontend framework.
+            {t("Skill1Description1")} <Code>{t("Skill1Tech1")}</Code>{" "}
+            {t("Skill1Description2")} <Code>{t("Skill1Tech2")}</Code>{" "}
+            {t("Skill1Description3")}
           </p>
         </div>
         <div>
           <div className="flex flex-col gap-2 flex-1">
             <TypeScriptIcon size={42} />
           </div>
-          <h3 className="text-2xl font-semibold tracking-tight">Typescript</h3>
+          <h3 className="text-2xl font-semibold tracking-tight">
+            {t("Skill2Title")}
+          </h3>
           <p className="text-sm text-muted-foreground">
-            I use <Code>TypeScript</Code> to prevent bugs and improve my code
-            quality.
+            {t("Skill2Description1")}
+            <Code>{t("Skill2Tech1")}</Code>
+            {t("Skill2Description2")}
           </p>
         </div>
         <div>
           <div className="flex flex-col gap-2 flex-1">
             <TailwindIcon size={42} />
           </div>
-          <h3 className="text-2xl font-semibold tracking-tight">Tailwind</h3>
+          <h3 className="text-2xl font-semibold tracking-tight">
+            {t("Skill3Title")}
+          </h3>
           <p className="text-sm text-muted-foreground">
-            Still learning <Code>TailwindCSS</Code> but I <i>love</i> it so far!
+            {t("Skill3Description1")}
+            <Code>{t("Skill3Tech1")}</Code>
+            {t("Skill3Description2")}
           </p>
         </div>
       </div>

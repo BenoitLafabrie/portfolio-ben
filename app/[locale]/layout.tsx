@@ -17,11 +17,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  locale,
 }: Readonly<{
   children: React.ReactNode;
+  locale: string;
 }>) {
   return (
-    <html lang="en" className="h-full">
+    <html lang={locale} className="h-full">
       <body
         className={cn(
           GeistSans.variable,

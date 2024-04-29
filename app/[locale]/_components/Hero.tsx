@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { Code } from "./Code";
 import { Section } from "./Section";
@@ -10,41 +11,35 @@ import { TailwindIcon } from "./icons/TailwindIcon";
 import { TypeScriptIcon } from "./icons/TypeScriptIcon";
 
 export const Hero = () => {
+  const t = useTranslations("Home.Hero");
   return (
     <Section className="flex max-md:flex-col items-start gap-4">
       <div className="flex-[3] w-full flex flex-col gap-2">
         <h2 className="font-caption font-bold text-5xl text-primary">
           Benoît Lafabrie
         </h2>
-        <h3 className="text-3xl font-caption">Fullstack web developer</h3>
+        <h3 className="text-3xl font-caption">{t("Role")}</h3>
         <>
           <p className="text-base">
-            Currently looking for a full-time job, I use{" "}
+            {t("Summary")}
             <Code className="inline-flex items-center gap-1">
               <ReactIcon size={16} className="inline" />
-              React
+              {t("Tech1")}
             </Code>
             ,{" "}
             <Code className="inline-flex items-center gap-1">
               <TypeScriptIcon size={16} className="inline" />
-              TypeScript
+              {t("Tech2")}
             </Code>
-            , and{" "}
+            , {t("And")}{" "}
             <Code className="inline-flex items-center gap-1">
               <TailwindIcon size={16} className="inline" />
-              Tailwind
+              {t("Tech3")}
             </Code>
             .
           </p>
           <p className="text-base">
-            I designed and coded the{" "}
-            <Link href="https://mygunplalist.com">
-              <Code className="inline-flex items-center gap-1">
-                <MyGunplaListIcon size={16} className="inline" />
-                MyGunplaList
-              </Code>{" "}
-            </Link>
-            website, living in{" "}
+            {t("Situation1")}{" "}
             <Link href="https://en.wikipedia.org/wiki/France">
               <Code className="inline-flex items-center gap-1">
                 <img
@@ -52,7 +47,14 @@ export const Hero = () => {
                   alt="France flag"
                   style={{ width: "16px", height: "auto" }}
                 />
-                France
+                {t("Country")}
+              </Code>{" "}
+            </Link>
+            {t("Situation2")}{" "}
+            <Link href="https://mygunplalist.com">
+              <Code className="inline-flex items-center gap-1">
+                <MyGunplaListIcon size={16} className="inline" />
+                {t("FlagshipProject")}
               </Code>{" "}
             </Link>
             .
