@@ -2,10 +2,10 @@ import { cn } from "@/lib/utils";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 import type { Metadata } from "next";
-import { Anek_Telugu } from "next/font/google";
+import { Archivo } from "next/font/google";
 import "./globals.css";
 
-const AnekTelugu = Anek_Telugu({
+const ArchivoFont = Archivo({
   subsets: ["latin"],
   variable: "--font-caption",
 });
@@ -17,16 +17,18 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  locale,
 }: Readonly<{
   children: React.ReactNode;
+  locale: string;
 }>) {
   return (
-    <html lang="en" className="h-full">
+    <html lang={locale} className="h-full">
       <body
         className={cn(
           GeistSans.variable,
           GeistMono.variable,
-          AnekTelugu.variable,
+          ArchivoFont.variable,
           "font-sans h-full bg-background text-foreground"
         )}
       >

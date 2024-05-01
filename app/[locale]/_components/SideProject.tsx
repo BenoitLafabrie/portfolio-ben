@@ -23,7 +23,9 @@ export const SideProject = (props: SideProjectProps) => {
           <p className="text-lg font-semibold">{props.title}</p>
           {props.bootcamp && <Badge variant="outline">Bootcamp</Badge>}
         </div>
-        <p className="text-sm text-muted-foreground">{props.description}</p>
+        <p className="text-sm text-muted-foreground hyphens-auto">
+          {props.description}
+        </p>
       </div>
     </Link>
   );

@@ -1,32 +1,34 @@
 import { Badge } from "@/components/ui/badge";
+import { useTranslations } from "next-intl";
 import { ContactCard } from "./ContactCard";
 import { Section } from "./Section";
 
 export const Contact = () => {
+  const t = useTranslations("Home.Contact");
   return (
     <Section className="flex flex-col items-start gap-4">
-      <Badge className="text-3xl" variant="outline">
-        Contact me
+      <Badge className="text-3xl" variant="secondary">
+        {t("Title")}
       </Badge>
       <h2 className="pb-2 text-2xl font-semibold tracking-tight first:mt-0">
-        I would love to work with you.
+        {t("ContactCatchphrase")}
       </h2>
       <div className="flex max-md:flex-col gap-4 w-full">
         <ContactCard
           className="flex-1"
           url="mailto:benoit_lafabrie_pro@fastmail.com"
-          name="Pro Email"
+          name={t("MailContactName")}
           image="https://i.imgur.com/ZiUHp3A.jpg"
           mediumImage="https://purepng.com/public/uploads/medium/purepng.com-mail-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596075c48i3.png"
-          description="Please fill that inbox ;)"
+          description={t("MailContactDescription")}
         />
         <ContactCard
           className="flex-1"
           url="https://www.linkedin.com/in/benoit-lafabrie/"
-          name="Benoît Lafabrie"
+          name={t("LinkedInContactName")}
           image="https://i.imgur.com/ZiUHp3A.jpg"
           mediumImage="https://logospng.org/download/linkedin/logo-linkedin-icon-2048.png"
-          description="Let's networking ;)"
+          description={t("LinkedInContactDescription")}
         />
       </div>
     </Section>
