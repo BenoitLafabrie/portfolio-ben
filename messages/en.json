@@ -1,0 +1,58 @@
+{
+  "Home": {
+    "Header": {
+      "Title": "Welcome to my portfolio!!!"
+    },
+    "Hero": {
+      "Role": "Fullstack web developer",
+      "Summary": "Currently looking for a full-time job, I'm using ",
+      "Tech1": "React",
+      "Tech2": "Typescript",
+      "And": "and ",
+      "Tech3": "Tailwind",
+      "Situation1": "Living in ",
+      "Country": "France",
+      "Situation2": ", I designed and coded the website ",
+      "FlagshipProject": "MyGunplaList"
+    },
+    "Status": {
+      "SideProjectsTitle": "Side Projects",
+      "WorkTitle": "Work",
+      "ContactMeTitle": "Contact Me",
+      "MailContactName": "Mail",
+      "MailContactDescription": "Fast response guaranteed",
+      "LinkedInContactName": "LinkedIn",
+      "LinkedInContactDescription": "Private message or connection",
+      "SideProject1Description": "Mobile app to create and keep good habits in your life. \nDesign & Front-end team.",
+      "SideProject2Description": "Web app to manage and share decision-making for organization's future projects. \nDesign, Front-end & Back-end team.",
+      "SideProject3Description": "ADN/Anilist clone to track and watch your favorite anime series. \nDesign, Front-end & API team.",
+      "Work1Role": "Fullstack web developer"
+    },
+    "Skills": {
+      "Title": "Skills",
+      "SkillsCatchphrase": "I love working on...",
+      "Skill1Title": "React",
+      "Skill1Description1": "My main framework is ",
+      "Skill1Tech1": "React",
+      "Skill1Description2": ". I also use ",
+      "Skill1Tech2": "Next.js",
+      "Skill1Description3": " as a back-end and front-end framework.",
+      "Skill2Title": "TypeScript",
+      "Skill2Description1": "I use ",
+      "Skill2Tech1": "TypeScript",
+      "Skill2Description2": " to prevent bugs and improve my code quality.",
+      "Skill3Title": "Tailwind",
+      "Skill3Description1": "Still learning ",
+      "Skill3Tech1": "TailwindCSS",
+      "Skill3Description2": " but I love it so far!"
+    },
+    "Contact": {
+      "Title": "Contact me",
+      "ContactCatchphrase": "I would love to work with you.",
+      "MailContactName": "Mail",
+      "MailContactDescription": "Fast response guaranteed",
+      "LinkedInContactName": "LinkedIn",
+      "LinkedInContactDescription": "Private message or connection"
+    }
+  }
+}

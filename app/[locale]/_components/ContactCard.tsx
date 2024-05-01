@@ -24,7 +24,7 @@ export const ContactCard = (props: {
           <img
             src={props.mediumImage}
             alt={props.name}
-            className="w-4 h-4 absolute -bottom-1 -right-1 rounded-full object-contain"
+            className="w-4 h-4 absolute -bottom-1 -right-1 rounded-md object-contain"
           />
         </div>
         <div className="flex-1">
