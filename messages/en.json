@@ -8,7 +8,7 @@
       "Summary": "Currently looking for a full-time job, I'm using ",
       "Tech1": "React",
       "Tech2": "Typescript",
-      "And": "and",
+      "And": "and ",
       "Tech3": "Tailwind",
       "Situation1": "Living in ",
       "Country": "France",
@@ -23,9 +23,9 @@
       "MailContactDescription": "Fast response guaranteed",
       "LinkedInContactName": "LinkedIn",
       "LinkedInContactDescription": "Private message or connection",
-      "SideProject1Description": "Mobile app to create and keep good habits in your life. \nDesign & Frontend team.",
-      "SideProject2Description": "Web app to manage decision-making for organization's future projects. \nDesign, Frontend & Backend team.",
-      "SideProject3Description": "ADN/Anilist clone to track and watch your favorite anime series. \nDesign, Frontend & API team.",
+      "SideProject1Description": "Mobile app to create and keep good habits in your life. \nDesign & Front-end team.",
+      "SideProject2Description": "Web app to manage and share decision-making for organization's future projects. \nDesign, Front-end & Back-end team.",
+      "SideProject3Description": "ADN/Anilist clone to track and watch your favorite anime series. \nDesign, Front-end & API team.",
       "Work1Role": "Fullstack web developer"
     },
     "Skills": {
@@ -36,15 +36,15 @@
       "Skill1Tech1": "React",
       "Skill1Description2": ". I also use ",
       "Skill1Tech2": "Next.js",
-      "Skill1Description3": "as a back-end and front-end framework.",
+      "Skill1Description3": " as a back-end and front-end framework.",
       "Skill2Title": "TypeScript",
       "Skill2Description1": "I use ",
       "Skill2Tech1": "TypeScript",
-      "Skill2Description2": "to prevent bugs and improve my code quality.",
+      "Skill2Description2": " to prevent bugs and improve my code quality.",
       "Skill3Title": "Tailwind",
       "Skill3Description1": "Still learning ",
       "Skill3Tech1": "TailwindCSS",
-      "Skill3Description2": "but I love it so far!"
+      "Skill3Description2": " but I love it so far!"
     },
     "Contact": {
       "Title": "Contact me",

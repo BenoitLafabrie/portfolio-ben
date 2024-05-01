@@ -26,12 +26,12 @@ export const Hero = () => {
               <ReactIcon size={16} className="inline" />
               {t("Tech1")}
             </Code>
-            ,{" "}
+            ,
             <Code className="inline-flex items-center gap-1">
               <TypeScriptIcon size={16} className="inline" />
               {t("Tech2")}
             </Code>
-            , {t("And")}{" "}
+            , {t("And")}
             <Code className="inline-flex items-center gap-1">
               <TailwindIcon size={16} className="inline" />
               {t("Tech3")}
@@ -39,7 +39,7 @@ export const Hero = () => {
             .
           </p>
           <p className="text-base">
-            {t("Situation1")}{" "}
+            {t("Situation1")}
             <Link href="https://en.wikipedia.org/wiki/France">
               <Code className="inline-flex items-center gap-1">
                 <img
@@ -48,14 +48,14 @@ export const Hero = () => {
                   style={{ width: "16px", height: "auto" }}
                 />
                 {t("Country")}
-              </Code>{" "}
+              </Code>
             </Link>
-            {t("Situation2")}{" "}
+            {t("Situation2")}
             <Link href="https://mygunplalist.com">
               <Code className="inline-flex items-center gap-1">
                 <MyGunplaListIcon size={16} className="inline" />
                 {t("FlagshipProject")}
-              </Code>{" "}
+              </Code>
             </Link>
             .
           </p>

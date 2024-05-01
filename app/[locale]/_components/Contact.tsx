@@ -1,5 +1,5 @@
-import { useTranslations } from "next-intl";
 import { Badge } from "@/components/ui/badge";
+import { useTranslations } from "next-intl";
 import { ContactCard } from "./ContactCard";
 import { Section } from "./Section";
 
@@ -7,7 +7,7 @@ export const Contact = () => {
   const t = useTranslations("Home.Contact");
   return (
     <Section className="flex flex-col items-start gap-4">
-      <Badge className="text-3xl" variant="outline">
+      <Badge className="text-3xl" variant="secondary">
         {t("Title")}
       </Badge>
       <h2 className="pb-2 text-2xl font-semibold tracking-tight first:mt-0">

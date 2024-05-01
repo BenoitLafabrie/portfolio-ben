@@ -8,11 +8,11 @@
       "Summary": "Actuellement à la recherche d'un CDI, j'utilise ",
       "Tech1": "React",
       "Tech2": "Typescript",
-      "And": "et",
+      "And": "et ",
       "Tech3": "Tailwind",
       "Situation1": "Je vis en ",
       "Country": "France",
-      "Situation2": "et j'ai conçu et développé le site ",
+      "Situation2": " et j'ai conçu et développé le site ",
       "FlagshipProject": "MyGunplaList"
     },
     "Status": {
@@ -34,17 +34,17 @@
       "Skill1Title": "React",
       "Skill1Description1": "J'utilise principalement ",
       "Skill1Tech1": "React",
-      "Skill1Description2": "mais je me sers également de ",
+      "Skill1Description2": " mais je me sers également de ",
       "Skill1Tech2": "Next.js",
-      "Skill1Description3": "en tant que framework back-end et front-end.",
+      "Skill1Description3": " en tant que framework back-end et front-end.",
       "Skill2Title": "TypeScript",
       "Skill2Description1": "J'utilise ",
       "Skill2Tech1": "TypeScript",
-      "Skill2Description2": "pour avoir un meilleur code et anticiper les bugs.",
+      "Skill2Description2": " pour avoir un meilleur code et anticiper les bugs.",
       "Skill3Title": "Tailwind",
       "Skill3Description1": "Encore en phase d'apprentissage de ",
       "Skill3Tech1": "TailwindCSS",
-      "Skill3Description2": "mais j'apprécie beaucoup son utilisation pour le design."
+      "Skill3Description2": " mais j'apprécie beaucoup son utilisation pour le design."
     },
     "Contact": {
       "Title": "Contactez-moi",

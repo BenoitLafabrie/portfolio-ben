@@ -10,7 +10,7 @@ export const Skills = () => {
   const t = useTranslations("Home.Skills");
   return (
     <Section className="flex flex-col items-start gap-4">
-      <Badge className="text-3xl" variant="outline">
+      <Badge className="text-3xl" variant="secondary">
         {t("Title")}
       </Badge>
       <h2 className="pb-2 text-2xl font-semibold tracking-tight first:mt-0">
@@ -28,9 +28,9 @@ export const Skills = () => {
           <h3 className="text-2xl font-semibold tracking-tight">
             {t("Skill1Title")}
           </h3>
-          <p className="text-sm text-muted-foreground">
-            {t("Skill1Description1")} <Code>{t("Skill1Tech1")}</Code>{" "}
-            {t("Skill1Description2")} <Code>{t("Skill1Tech2")}</Code>{" "}
+          <p className="text-sm text-muted-foreground text-pretty hyphens-auto">
+            {t("Skill1Description1")} <Code>{t("Skill1Tech1")}</Code>
+            {t("Skill1Description2")} <Code>{t("Skill1Tech2")}</Code>
             {t("Skill1Description3")}
           </p>
         </div>
@@ -41,7 +41,7 @@ export const Skills = () => {
           <h3 className="text-2xl font-semibold tracking-tight">
             {t("Skill2Title")}
           </h3>
-          <p className="text-sm text-muted-foreground">
+          <p className="text-sm text-muted-foreground text-pretty hyphens-auto">
             {t("Skill2Description1")}
             <Code>{t("Skill2Tech1")}</Code>
             {t("Skill2Description2")}
@@ -54,7 +54,7 @@ export const Skills = () => {
           <h3 className="text-2xl font-semibold tracking-tight">
             {t("Skill3Title")}
           </h3>
-          <p className="text-sm text-muted-foreground">
+          <p className="text-sm text-muted-foreground text-balance hyphens-auto">
             {t("Skill3Description1")}
             <Code>{t("Skill3Tech1")}</Code>
             {t("Skill3Description2")}
