@@ -63,8 +63,8 @@ export const Hero = () => {
       </div>
       <div className="flex-[2] max-md:m-auto ml-auto">
         <img
-          src="https://i.imgur.com/ZiUHp3A.jpg"
-          className="w-full h-auto max-w-xs max-md:w-56 rounded-full"
+          src="https://i.imgur.com/Us0eknf.png"
+          className="w-1/2 h-auto max-w-xs max-md:w-56 rounded-xl"
           alt="Ben's picture"
         />
       </div>
